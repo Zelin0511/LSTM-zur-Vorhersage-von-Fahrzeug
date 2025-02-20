@@ -64,7 +64,7 @@ Dieses Projekt implementiert zwei Methoden zur Vorhersage des Fahrzeugzustands:
 -keras
 
 ```bash
-pip install tensorflow pandas numpy matplotlib
+pip install pandas numpy sklearn tensorflow matplotlib keras
 ```
 
 ---
