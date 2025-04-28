@@ -23,23 +23,23 @@ Dieses Projekt implementiert zwei Methoden zur Vorhersage des Fahrzeugzustands:
 3. 将测试输入数据存储为 `test.csv`，放在当前目录中。
 4. 运行 `DireckteVorhersage2.py` 进行预测。
 5. 将实际结果存储为 `outputT.csv`，放在模型同一目录中。
-6. 运行 `COMPARE.py`（注意修改要对比的 CSV 文件名称）查看预测结果。
+6. 运行 `COMPARE1.py`（注意修改要对比的 CSV 文件名称）查看预测结果。
 
 **Steps:**
 1. Place **training data** into the `data` folder.
 2. Run `DireckteVorhersage.py` to train the model.
-3. Store test input data as `input.csv` in the current directory.
+3. Store test input data as `test.csv` in the current directory.
 4. Run `DireckteVorhersage2.py` to make predictions.
 5. Save actual results as `outputT.csv` in the same directory as the model.
-6. Run `COMPARE.py` (modify the CSV file names accordingly) to view the results.
+6. Run `COMPARE1.py` (modify the CSV file names accordingly) to view the results.
 
 **Schritte:**
 1. Trainingsdaten in den Ordner `data` legen.
 2. `DireckteVorhersage.py` ausführen, um das Modell zu trainieren.
-3. Testeingabedaten als `input.csv` im aktuellen Verzeichnis speichern.
+3. Testeingabedaten als `test.csv` im aktuellen Verzeichnis speichern.
 4. `DireckteVorhersage2.py` ausführen, um Vorhersagen zu treffen.
 5. Tatsächliche Ergebnisse als `outputT.csv` im selben Verzeichnis wie das Modell speichern.
-6. `COMPARE.py` ausführen (entsprechende CSV-Dateinamen anpassen), um die Ergebnisse anzuzeigen.
+6. `COMPARE1.py` ausführen (entsprechende CSV-Dateinamen anpassen), um die Ergebnisse anzuzeigen.
 
 ---
 
@@ -55,7 +55,7 @@ Dieses Projekt implementiert zwei Methoden zur Vorhersage des Fahrzeugzustands:
 ---
 1. Place the training data into the `data` folder (**you don't need a large amount of data; please select representative samples**).
 2. Place the test input and output data into the `Test` directory inside the `data` folder.
-3. Run `csv文件处理.py` to generate the training datasets `input.csv` and `output.csv`.
+3. Run `csv文件处理.py` to generate the training datasets `test.csv` and `output.csv`.
 4. Run `PLSTM.py` to generate the prediction results `predictions.csv`.
 5. Run `addTime.py` to add a time column to the prediction results.
 6. Run `COMPARE.py` (remember to modify the CSV filenames you want to compare) to view the prediction results.
