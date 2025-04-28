@@ -52,12 +52,14 @@ Dieses Projekt implementiert zwei Methoden zur Vorhersage des Fahrzeugzustands:
 4. 运行 `PLSTM.py`，生成预测结果 `predictions.csv`。
 5. 运行 `addTime.py`，为预测结果添加时间列。
 6. 运行 `COMPARE.py` （注意修改要对比的 CSV 文件名称）查看预测结果。
+
 1. Place the training data into the `data` folder (**you don't need a large amount of data; please select representative samples**).
 2. Place the test input and output data into the `Test` directory inside the `data` folder.
 3. Run `csv文件处理.py` to generate the training datasets `input.csv` and `output.csv`.
 4. Run `PLSTM.py` to generate the prediction results `predictions.csv`.
 5. Run `addTime.py` to add a time column to the prediction results.
 6. Run `COMPARE.py` (remember to modify the CSV filenames you want to compare) to view the prediction results.
+
 1. Lege die Trainingsdaten im Ordner `data` ab (**es wird keine große Menge an Daten benötigt; bitte wähle repräsentative Daten aus**).
 2. Lege die Testeingabe- und Testausgabedaten im Verzeichnis `Test` innerhalb des `data`-Ordners ab.
 3. Führe `csv文件处理.py` aus, um die Trainingsdaten `input.csv` und `output.csv` zu erstellen.
