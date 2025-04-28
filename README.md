@@ -20,7 +20,7 @@ Dieses Projekt implementiert zwei Methoden zur Vorhersage des Fahrzeugzustands:
 ### **使用步骤 | Usage Steps | Verwendungsschritte**
 1. 将 **训练数据** 放入 `data` 文件夹中。
 2. 运行 `DireckteVorhersage.py`，训练模型。
-3. 将测试输入数据存储为 `input.csv`，放在当前目录中。
+3. 将测试输入数据存储为 `test.csv`，放在当前目录中。
 4. 运行 `DireckteVorhersage2.py` 进行预测。
 5. 将实际结果存储为 `outputT.csv`，放在模型同一目录中。
 6. 运行 `COMPARE.py`（注意修改要对比的 CSV 文件名称）查看预测结果。
